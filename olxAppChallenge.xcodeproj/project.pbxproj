@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC3BF0B71BB6744F005E5532 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3BF0B21BB6744F005E5532 /* AppDelegate.m */; };
+		BC3BF0C61BB67DE8005E5532 /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3BF0C51BB67DE8005E5532 /* CategoryViewController.m */; };
+		BC3BF0CC1BB67E07005E5532 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3BF0CB1BB67E07005E5532 /* HomeViewController.m */; };
+		BC3BF0D01BB67E77005E5532 /* CompareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3BF0CF1BB67E77005E5532 /* CompareViewController.m */; };
+		BC3BF0D31BB68056005E5532 /* CategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3BF0D21BB68056005E5532 /* CategoryCell.m */; };
+		BC8F7F301BB6841100E49B94 /* olxAppChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC8F7F2E1BB6841100E49B94 /* olxAppChallenge.xcdatamodeld */; };
+		BC8F7F3F1BB684DE00E49B94 /* OlxProductDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8F7F3E1BB684DE00E49B94 /* OlxProductDetail.m */; };
+		BC8F7F421BB689EC00E49B94 /* CommonUtlilities.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8F7F411BB689EC00E49B94 /* CommonUtlilities.m */; };
+		BC8F7F451BB6957300E49B94 /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8F7F441BB6957300E49B94 /* HomeCell.m */; };
+		BCB55E151BB66D5000213A47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB55E141BB66D5000213A47 /* main.m */; };
+		BCB55E1E1BB66D5000213A47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB55E1D1BB66D5000213A47 /* ViewController.m */; };
+		BCB55E211BB66D5000213A47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB55E1F1BB66D5000213A47 /* Main.storyboard */; };
+		BCB55E231BB66D5000213A47 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCB55E221BB66D5000213A47 /* Images.xcassets */; };
+		BCB55E261BB66D5000213A47 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCB55E241BB66D5000213A47 /* LaunchScreen.xib */; };
+		BCB55E321BB66D5000213A47 /* olxAppChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB55E311BB66D5000213A47 /* olxAppChallengeTests.m */; };
+		BCFF9F601BB6B04100081F98 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCFF9F5F1BB6B04100081F98 /* HomeCell.xib */; };
+		CD6F6E95178B439C7EBAD849 /* libPods-olxAppChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66D179A47959160EE60694A3 /* libPods-olxAppChallenge.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCB55E2C1BB66D5000213A47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCB55E071BB66D5000213A47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCB55E0E1BB66D5000213A47;
+			remoteInfo = olxAppChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66D179A47959160EE60694A3 /* libPods-olxAppChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-olxAppChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3BF0B11BB6744F005E5532 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC3BF0B21BB6744F005E5532 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC3BF0C41BB67DE8005E5532 /* CategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
+		BC3BF0C51BB67DE8005E5532 /* CategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
+		BC3BF0CA1BB67E07005E5532 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		BC3BF0CB1BB67E07005E5532 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		BC3BF0CE1BB67E77005E5532 /* CompareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompareViewController.h; sourceTree = "<group>"; };
+		BC3BF0CF1BB67E77005E5532 /* CompareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompareViewController.m; sourceTree = "<group>"; };
+		BC3BF0D11BB68056005E5532 /* CategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryCell.h; sourceTree = "<group>"; };
+		BC3BF0D21BB68056005E5532 /* CategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryCell.m; sourceTree = "<group>"; };
+		BC8F7F2F1BB6841100E49B94 /* olxAppChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = olxAppChallenge.xcdatamodel; sourceTree = "<group>"; };
+		BC8F7F3D1BB684DE00E49B94 /* OlxProductDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OlxProductDetail.h; sourceTree = "<group>"; };
+		BC8F7F3E1BB684DE00E49B94 /* OlxProductDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OlxProductDetail.m; sourceTree = "<group>"; };
+		BC8F7F401BB689EC00E49B94 /* CommonUtlilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtlilities.h; sourceTree = "<group>"; };
+		BC8F7F411BB689EC00E49B94 /* CommonUtlilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtlilities.m; sourceTree = "<group>"; };
+		BC8F7F431BB6957300E49B94 /* HomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
+		BC8F7F441BB6957300E49B94 /* HomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
+		BCB55E0F1BB66D5000213A47 /* olxAppChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = olxAppChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB55E131BB66D5000213A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCB55E141BB66D5000213A47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCB55E1C1BB66D5000213A47 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BCB55E1D1BB66D5000213A47 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BCB55E201BB66D5000213A47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCB55E221BB66D5000213A47 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BCB55E251BB66D5000213A47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BCB55E2B1BB66D5000213A47 /* olxAppChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = olxAppChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB55E301BB66D5000213A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCB55E311BB66D5000213A47 /* olxAppChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = olxAppChallengeTests.m; sourceTree = "<group>"; };
+		BCFF9F5F1BB6B04100081F98 /* HomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		DE55BB30FC3402C78ED3895A /* Pods-olxAppChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-olxAppChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-olxAppChallenge/Pods-olxAppChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		FE2F266514F8054C0F72EC0C /* Pods-olxAppChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-olxAppChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-olxAppChallenge/Pods-olxAppChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCB55E0C1BB66D5000213A47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6F6E95178B439C7EBAD849 /* libPods-olxAppChallenge.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB55E281BB66D5000213A47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BBF53F02F7E056F41ACC3EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66D179A47959160EE60694A3 /* libPods-olxAppChallenge.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3BF0B01BB6744F005E5532 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BC3BF0B11BB6744F005E5532 /* AppDelegate.h */,
+				BC3BF0B21BB6744F005E5532 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		BC3BF0B31BB6744F005E5532 /* SourceCode */ = {
+			isa = PBXGroup;
+			children = (
+				BC3BF0B41BB6744F005E5532 /* CommonClass */,
+				BC3BF0B51BB6744F005E5532 /* Model */,
+				BC3BF0B61BB6744F005E5532 /* ViewController */,
+			);
+			path = SourceCode;
+			sourceTree = "<group>";
+		};
+		BC3BF0B41BB6744F005E5532 /* CommonClass */ = {
+			isa = PBXGroup;
+			children = (
+				BC8F7F401BB689EC00E49B94 /* CommonUtlilities.h */,
+				BC8F7F411BB689EC00E49B94 /* CommonUtlilities.m */,
+			);
+			path = CommonClass;
+			sourceTree = "<group>";
+		};
+		BC3BF0B51BB6744F005E5532 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC8F7F3D1BB684DE00E49B94 /* OlxProductDetail.h */,
+				BC8F7F3E1BB684DE00E49B94 /* OlxProductDetail.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC3BF0B61BB6744F005E5532 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BC3BF0CD1BB67E65005E5532 /* CompareViewController */,
+				BC3BF0C11BB67DCE005E5532 /* CategoryViewController */,
+				BC3BF0C31BB67DCE005E5532 /* HomeViewController */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BC3BF0C11BB67DCE005E5532 /* CategoryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BC3BF0C41BB67DE8005E5532 /* CategoryViewController.h */,
+				BC3BF0C51BB67DE8005E5532 /* CategoryViewController.m */,
+				BC3BF0D11BB68056005E5532 /* CategoryCell.h */,
+				BC3BF0D21BB68056005E5532 /* CategoryCell.m */,
+			);
+			path = CategoryViewController;
+			sourceTree = "<group>";
+		};
+		BC3BF0C31BB67DCE005E5532 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BC3BF0CA1BB67E07005E5532 /* HomeViewController.h */,
+				BC3BF0CB1BB67E07005E5532 /* HomeViewController.m */,
+				BC8F7F431BB6957300E49B94 /* HomeCell.h */,
+				BC8F7F441BB6957300E49B94 /* HomeCell.m */,
+				BCFF9F5F1BB6B04100081F98 /* HomeCell.xib */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		BC3BF0CD1BB67E65005E5532 /* CompareViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BC3BF0CE1BB67E77005E5532 /* CompareViewController.h */,
+				BC3BF0CF1BB67E77005E5532 /* CompareViewController.m */,
+			);
+			path = CompareViewController;
+			sourceTree = "<group>";
+		};
+		BCB55E061BB66D5000213A47 = {
+			isa = PBXGroup;
+			children = (
+				BCB55E111BB66D5000213A47 /* olxAppChallenge */,
+				BCB55E2E1BB66D5000213A47 /* olxAppChallengeTests */,
+				BCB55E101BB66D5000213A47 /* Products */,
+				EEE88A2F90A8369586E0CA89 /* Pods */,
+				0BBF53F02F7E056F41ACC3EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BCB55E101BB66D5000213A47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCB55E0F1BB66D5000213A47 /* olxAppChallenge.app */,
+				BCB55E2B1BB66D5000213A47 /* olxAppChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCB55E111BB66D5000213A47 /* olxAppChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				BC3BF0B01BB6744F005E5532 /* AppDelegate */,
+				BC3BF0B31BB6744F005E5532 /* SourceCode */,
+				BCB55E1C1BB66D5000213A47 /* ViewController.h */,
+				BCB55E1D1BB66D5000213A47 /* ViewController.m */,
+				BCB55E1F1BB66D5000213A47 /* Main.storyboard */,
+				BCB55E221BB66D5000213A47 /* Images.xcassets */,
+				BCB55E241BB66D5000213A47 /* LaunchScreen.xib */,
+				BC8F7F2E1BB6841100E49B94 /* olxAppChallenge.xcdatamodeld */,
+				BCB55E121BB66D5000213A47 /* Supporting Files */,
+			);
+			path = olxAppChallenge;
+			sourceTree = "<group>";
+		};
+		BCB55E121BB66D5000213A47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCB55E131BB66D5000213A47 /* Info.plist */,
+				BCB55E141BB66D5000213A47 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCB55E2E1BB66D5000213A47 /* olxAppChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCB55E311BB66D5000213A47 /* olxAppChallengeTests.m */,
+				BCB55E2F1BB66D5000213A47 /* Supporting Files */,
+			);
+			path = olxAppChallengeTests;
+			sourceTree = "<group>";
+		};
+		BCB55E2F1BB66D5000213A47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCB55E301BB66D5000213A47 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEE88A2F90A8369586E0CA89 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE2F266514F8054C0F72EC0C /* Pods-olxAppChallenge.debug.xcconfig */,
+				DE55BB30FC3402C78ED3895A /* Pods-olxAppChallenge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCB55E0E1BB66D5000213A47 /* olxAppChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCB55E351BB66D5000213A47 /* Build configuration list for PBXNativeTarget "olxAppChallenge" */;
+			buildPhases = (
+				9809CC573CDFF18EDA083299 /* Check Pods Manifest.lock */,
+				BCB55E0B1BB66D5000213A47 /* Sources */,
+				BCB55E0C1BB66D5000213A47 /* Frameworks */,
+				BCB55E0D1BB66D5000213A47 /* Resources */,
+				81B32FF5D32CB38B36BED57D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = olxAppChallenge;
+			productName = olxAppChallenge;
+			productReference = BCB55E0F1BB66D5000213A47 /* olxAppChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCB55E2A1BB66D5000213A47 /* olxAppChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCB55E381BB66D5000213A47 /* Build configuration list for PBXNativeTarget "olxAppChallengeTests" */;
+			buildPhases = (
+				BCB55E271BB66D5000213A47 /* Sources */,
+				BCB55E281BB66D5000213A47 /* Frameworks */,
+				BCB55E291BB66D5000213A47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCB55E2D1BB66D5000213A47 /* PBXTargetDependency */,
+			);
+			name = olxAppChallengeTests;
+			productName = olxAppChallengeTests;
+			productReference = BCB55E2B1BB66D5000213A47 /* olxAppChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCB55E071BB66D5000213A47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Ashish Agrawal";
+				TargetAttributes = {
+					BCB55E0E1BB66D5000213A47 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					BCB55E2A1BB66D5000213A47 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = BCB55E0E1BB66D5000213A47;
+					};
+				};
+			};
+			buildConfigurationList = BCB55E0A1BB66D5000213A47 /* Build configuration list for PBXProject "olxAppChallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCB55E061BB66D5000213A47;
+			productRefGroup = BCB55E101BB66D5000213A47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCB55E0E1BB66D5000213A47 /* olxAppChallenge */,
+				BCB55E2A1BB66D5000213A47 /* olxAppChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCB55E0D1BB66D5000213A47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB55E211BB66D5000213A47 /* Main.storyboard in Resources */,
+				BCB55E261BB66D5000213A47 /* LaunchScreen.xib in Resources */,
+				BCFF9F601BB6B04100081F98 /* HomeCell.xib in Resources */,
+				BCB55E231BB66D5000213A47 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB55E291BB66D5000213A47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81B32FF5D32CB38B36BED57D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-olxAppChallenge/Pods-olxAppChallenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9809CC573CDFF18EDA083299 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCB55E0B1BB66D5000213A47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3BF0D31BB68056005E5532 /* CategoryCell.m in Sources */,
+				BCB55E1E1BB66D5000213A47 /* ViewController.m in Sources */,
+				BC8F7F421BB689EC00E49B94 /* CommonUtlilities.m in Sources */,
+				BC8F7F451BB6957300E49B94 /* HomeCell.m in Sources */,
+				BC8F7F3F1BB684DE00E49B94 /* OlxProductDetail.m in Sources */,
+				BC3BF0CC1BB67E07005E5532 /* HomeViewController.m in Sources */,
+				BC3BF0C61BB67DE8005E5532 /* CategoryViewController.m in Sources */,
+				BC3BF0D01BB67E77005E5532 /* CompareViewController.m in Sources */,
+				BC8F7F301BB6841100E49B94 /* olxAppChallenge.xcdatamodeld in Sources */,
+				BCB55E151BB66D5000213A47 /* main.m in Sources */,
+				BC3BF0B71BB6744F005E5532 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB55E271BB66D5000213A47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB55E321BB66D5000213A47 /* olxAppChallengeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCB55E2D1BB66D5000213A47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCB55E0E1BB66D5000213A47 /* olxAppChallenge */;
+			targetProxy = BCB55E2C1BB66D5000213A47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCB55E1F1BB66D5000213A47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCB55E201BB66D5000213A47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCB55E241BB66D5000213A47 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCB55E251BB66D5000213A47 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCB55E331BB66D5000213A47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCB55E341BB66D5000213A47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCB55E361BB66D5000213A47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE2F266514F8054C0F72EC0C /* Pods-olxAppChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = olxAppChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCB55E371BB66D5000213A47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE55BB30FC3402C78ED3895A /* Pods-olxAppChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = olxAppChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCB55E391BB66D5000213A47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = olxAppChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/olxAppChallenge.app/olxAppChallenge";
+			};
+			name = Debug;
+		};
+		BCB55E3A1BB66D5000213A47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = olxAppChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/olxAppChallenge.app/olxAppChallenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCB55E0A1BB66D5000213A47 /* Build configuration list for PBXProject "olxAppChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCB55E331BB66D5000213A47 /* Debug */,
+				BCB55E341BB66D5000213A47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCB55E351BB66D5000213A47 /* Build configuration list for PBXNativeTarget "olxAppChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCB55E361BB66D5000213A47 /* Debug */,
+				BCB55E371BB66D5000213A47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCB55E381BB66D5000213A47 /* Build configuration list for PBXNativeTarget "olxAppChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCB55E391BB66D5000213A47 /* Debug */,
+				BCB55E3A1BB66D5000213A47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BC8F7F2E1BB6841100E49B94 /* olxAppChallenge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BC8F7F2F1BB6841100E49B94 /* olxAppChallenge.xcdatamodel */,
+			);
+			currentVersion = BC8F7F2F1BB6841100E49B94 /* olxAppChallenge.xcdatamodel */;
+			path = olxAppChallenge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BCB55E071BB66D5000213A47 /* Project object */;
+}
